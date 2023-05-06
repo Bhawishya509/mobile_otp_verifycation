@@ -20,7 +20,7 @@ function Dashboard({ setd ,datas}) {
 const numberchange=(e)=>
 {
   setd((old_data) => {
-    old_data.check=false;
+    old_data.checks=false;
     return { ...old_data}; // set a data in state
   });
   setShow(false);
